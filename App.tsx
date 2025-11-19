@@ -122,11 +122,11 @@ const App: React.FC = () => {
       <section className="relative bg-brand-dark overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://picsum.photos/seed/zimbabwe-family/1920/1080"
+            src="/images/KidsBackground.png"
             alt="A happy family in Zimbabwe"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-brand-green/95 via-brand-dark/90 to-brand-brown/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-brand-green/90 via-brand-dark/80 to-brand-brown/70"></div>
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
           <div className="lg:w-2/3">
@@ -492,13 +492,12 @@ const App: React.FC = () => {
               <h4 className="text-brand-gold font-bold mb-4">Legal</h4>
               <ul className="space-y-2 text-sm">
                 <li><button onClick={() => scrollToSection('privacy')} className="hover:text-white transition-colors">Privacy Policy</button></li>
-                <li><a href="#" className="hover:text-white transition-colors">Terms of Service</a></li>
+                <li><button className="hover:text-white transition-colors">Terms of Service</button></li>
               </ul>
             </div>
           </div>
-          <div className="border-t border-green-900 pt-8 text-center text-xs text-green-200 flex flex-col md:flex-row justify-between items-center">
+          <div className="border-t border-green-900 pt-8 text-xs text-center">
             <p>&copy; {new Date().getFullYear()} Home Connect. All rights reserved.</p>
-            <p className="mt-2 md:mt-0">Proudly Zimbabwean <span className="text-brand-red">♥</span></p>
           </div>
         </div>
       </footer>
