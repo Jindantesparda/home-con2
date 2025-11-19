@@ -19,7 +19,8 @@ export const TEAM_DATA: TeamMember[] = [
       "Set the tone for innovation in addressing modern family and child welfare challenges.",
       "Serve as the public face of the organization."
     ],
-    imageSeed: 101
+    imageSeed: 101,
+    imageUrl: "/images/Felix.png"
   },
   {
     name: "Miss Betty Machaka",
@@ -45,7 +46,8 @@ export const TEAM_DATA: TeamMember[] = [
       "Secure funding through strategic partnerships and grants.",
       "Keep the board informed with accurate and transparent reports."
     ],
-    imageSeed: 303
+    imageSeed: 303,
+    imageUrl: "/images/Priscah.png"
   },
   {
     name: "Mrs. Faith Rusike",
@@ -69,7 +71,8 @@ export const TEAM_DATA: TeamMember[] = [
       "Work with accountants and auditors to ensure compliance.",
       "Guide the board on sustainable income generation."
     ],
-    imageSeed: 505
+    imageSeed: 505,
+    imageUrl: "/images/Moses.png"
   },
   {
     name: "Mr. Patrick Madyira",
@@ -81,7 +84,8 @@ export const TEAM_DATA: TeamMember[] = [
       "Manage board communications to ensure every member is informed.",
       "Preserve the history and progress of Home Connect."
     ],
-    imageSeed: 606
+    imageSeed: 606,
+    imageUrl: "/images/Patrick.png"
   },
   {
     name: "Mr. Munyaradzi Mzite",
@@ -94,7 +98,8 @@ export const TEAM_DATA: TeamMember[] = [
       "Manage logistics for meetings and events.",
       "Act as the first point of contact for enquiries."
     ],
-    imageSeed: 707
+    imageSeed: 707,
+    imageUrl: "/images/Munya.png"
   }
 ];
 
